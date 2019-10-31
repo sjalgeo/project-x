@@ -93,6 +93,15 @@ body{
     display:inline-block;
     margin-top:-25px;
 }
+
+.navBar-button{
+    border:1px solid white;
+    border-radius:40px;
+    margin-left:50px;
+}
+.navBar-rightLink{
+    margin-left:20px;
+}
 .menu-item li{
     color: black;
     padding: 12px 16px;
@@ -101,8 +110,7 @@ body{
 
 .dropdown li:hover{
     background-color: #ddd;
-    width:100px;
-    
+    width:100px;  
 }
 
 .show{
@@ -159,26 +167,26 @@ body{
 .section-productInfo{
     margin-top: 2.5%;
 }
-  .link{
-      font-size:1.5rem;
+.link{
+    font-size:1.5rem;
   }
 
-  .icon-link:hover{
-      color:#FF102D;
+.icon-link:hover{
+  color:#FF102D;
   }
   
-  .icon-link{
-      text-decoration:none;
-      color: black;      
+.icon-link{
+    text-decoration:none;
+    color: black;      
   }
-  i{
-      position: absolute;
+i{
+    position: absolute;
   }
 
-  .linkText{
+.linkText{
     margin-left:40px;
   }
-  .section-productInfo-button{
+.section-productInfo-button{
       margin-top: 100px;
   }
 .productInfo-image{
