@@ -3,7 +3,7 @@ function showMenu() {
 
     window.onclick = function (event) {
         if (!event.target.matches('.dropdown-button')) {
-            var dropdowns = document.getElementsByClassName("dropdown-item");
+            var dropdowns = document.getElementsByClassName("dropdown__item");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
                 var openDropdown = dropdowns[i];
@@ -15,11 +15,7 @@ function showMenu() {
     }
 }
 
-function burgerMenu(){
-    var x = document.getElementById("topNav");
-    if(x.className==="navbar"){
-        x.className+=" responsive";
-    }else{
-        x.className="navbar";
-    }
-}
+document.querySelector('.c-nav__burger').addEventListener('click', () => {
+    const navInner = document.querySelector('.c-nav__inner');
+    navInner.classList.toggle('c-nav__inner--active')
+})
