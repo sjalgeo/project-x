@@ -74,7 +74,7 @@ body {
 	display: block;
 	cursor: pointer;
 }
-.dropdown li: hover{
+.dropdown li:hover{
 	background-color: #ddd;
 }
 .show {
@@ -287,10 +287,10 @@ li {
 	width: 100%;
 	padding: 1rem 2rem;
 }
-.c-nav .ul li: not(: first-of-type){
+.c-nav .ul li:not(:first-of-type){
 	margin-left: 2rem;
 }
-.c-nav .ul li: not(: last-of-type){
+.c-nav .ul li:not(:last-of-type){
 	margin-right: 2rem;
 }
 
@@ -311,7 +311,7 @@ li {
 	border-radius: 5rem;
 }
 
-.button--round: hover{
+.button--round:hover{
 	background-color: rgba(255,255,255,.3)
 }
 .c-nav__burger{
