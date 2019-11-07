@@ -1,9 +1,9 @@
 function showMenu() {
-    document.getElementById("dropdown-menu").classList.toggle("show");
+    document.getElementById("drop-items").classList.toggle("show");
 
     window.onclick = function (event) {
-        if (!event.target.matches('.dropdown-button')) {
-            var dropdowns = document.getElementsByClassName("dropdown__item");
+        if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown__content");
             var i;
             for (i = 0; i < dropdowns.length; i++) {
                 var openDropdown = dropdowns[i];
