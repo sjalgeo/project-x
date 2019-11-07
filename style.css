@@ -4,13 +4,14 @@
 html {
 	font-family: 'Poppins', sans-serif;
 	font-size: 10px;
-
+	font-weight: 300;
 }
 
 body {
 	background-color: #F7F8F8;
 	padding-bottom: 5rem;
 	font-size: 1.6rem;
+
 	overflow-x: hidden;
 	max-width: 100%;
 }
@@ -40,6 +41,7 @@ body {
 .header-text {
 	text-align: left;
 	padding-top: 25%;
+
 }
 
 .show {
@@ -291,7 +293,8 @@ li {
 	font-size: 1.6rem;
 	color:#ffffff;
 	background: transparent;
-	background-image: url("resources/images/chevron.png")
+	font-family: 'Poppins', sans-serif;
+	font-weight: 100;
 }
 
 option{
