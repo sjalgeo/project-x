@@ -11,7 +11,6 @@ body {
 	background-color: #F7F8F8;
 	padding-bottom: 5rem;
 	font-size: 1.6rem;
-
 	overflow-x: hidden;
 	max-width: 100%;
 }
@@ -23,7 +22,6 @@ body {
 	color: #ffffff;
 	height: 50rem;
 }
-
 .header {
 	display: inline-block;
 	max-width: 100%;
@@ -32,7 +30,6 @@ body {
 .row {
 	width: 100%;
 }
-
 .header-title {
 	text-align: right;
 	padding: 30px;
@@ -41,9 +38,7 @@ body {
 .header-text {
 	text-align: left;
 	padding-top: 25%;
-
 }
-
 .show {
 	display: block;
 }
