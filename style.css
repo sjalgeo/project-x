@@ -306,6 +306,9 @@ option{
 	color: #000000;
 }
 @media (max-width: 992px){
+	body{
+		font-size:2.5rem;
+	}
 	.c-nav__burger{
 		display: flex;
 		position: absolute;
@@ -325,8 +328,8 @@ option{
 		top: 0;
 		right: 0;
 		bottom: 0;
-		height: 50vh;
-		width: 30vh;	
+		height: 100vh;
+		width: 50vh;	
 		flex-direction: column;	
 		background-color: #1D3B53;
 		align-items: flex-start;
@@ -358,10 +361,10 @@ option{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		width:100;
+		width:100%;
 	}
 	.section-head{
-		height: 70rem;
+		height: 120rem;
 	}
 	.button-border{
 		display: flex;
