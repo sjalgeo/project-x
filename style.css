@@ -78,22 +78,18 @@ body {
 	position: absolute;
 	width: 9rem;
 	height: 9rem;
-	padding: 3rem auto 0 auto;
 	border-radius: 50%;
 	margin-left: -25rem;
 	margin-top: 6rem;
 }
 .play {
-	display: flex;
-	justify-content: center;
-	border: solid;
-	height: 5rem;
-	width: 5rem;
-	margin-top: 2rem;
-	margin-left: 2rem;
-	padding: 0 !important;
-	border-width: 2.5rem 0rem 2.5rem 5rem;
-	border-color: transparent transparent transparent #202020;
+	height: 3rem;
+	width:0;
+	margin: 1.5rem auto 0 4.5rem;
+	border-top: 3rem solid transparent;
+	border-left: 5rem solid #000000;
+	border-right: 3rem solid transparent;
+	border-bottom: 3rem solid transparent;
 }
 .section-product-info {
 	margin-top: 2.5%;
@@ -305,6 +301,7 @@ li {
 option{
 	color: #000000;
 }
+
 @media (max-width: 992px){
 	body{
 		font-size:2.5rem;
@@ -366,6 +363,13 @@ option{
 	.section-head{
 		height: 120rem;
 	}
+	.header-button{
+		padding: 0;
+	}
+	.button-round{
+		padding: 1rem;
+		width: 15rem;
+	}
 	.button-border{
 		display: flex;
 		justify-content:left;
@@ -388,6 +392,9 @@ option{
 		margin: 0 auto;
 	}
 	.col-sm-7{
+		margin: 0 auto;
+	}
+	.col-sm-8{
 		margin: 0 auto;
 	}	
 }
