@@ -306,7 +306,7 @@ option{
 
 @media (max-width: 992px){
 	body{
-		font-size:2.5rem;
+		font-size: 2.5rem;
 	}
 	.c-nav__burger{
 		display: flex;
@@ -351,7 +351,7 @@ option{
 		padding-left: 2rem;		
 	}
 	.header{
-		width:100%;
+		width: 100%;
 	}
 	.header-button{
 		margin: 0 auto;
@@ -360,7 +360,7 @@ option{
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		width:100%;
+		width: 100%;
 	}
 	.section-head{
 		height: 120rem;
@@ -374,7 +374,7 @@ option{
 	}
 	.button-border{
 		display: flex;
-		justify-content:left;
+		justify-content: left;
 		margin-top: 8rem;
 		margin-left: -20rem;
 	}
