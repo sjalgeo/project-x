@@ -201,9 +201,9 @@ form{
 	margin-left: 70%;
 }
 .footer {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding-top: 30px;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-top: 3rem;
 	background-color: #F7F8F8;
 	text-align: center;
 }
@@ -222,13 +222,13 @@ li {
 	list-style: none;
 }
 .logo-icon {
-	margin-top: 10px;
+	margin-top: 1rem;
 }
 .twitter-icon {
 	margin: 0 25px;
 }
 .linkedin-icon {
-	margin: 0 50px;
+	margin: 0 5rem;
 }
 
 .bottom-break {
@@ -363,7 +363,7 @@ option{
 		width: 100%;
 	}
 	.section-head{
-		height: 120rem;
+		height: 100rem;
 	}
 	.header-button{
 		padding: 0;
@@ -374,18 +374,54 @@ option{
 	}
 	.button-border{
 		display: flex;
-		justify-content: left;
+		justify-content: center;
 		margin-top: 8rem;
-		margin-left: -20rem;
+		margin-left: 20rem;
 	}
 	.header-title{
 		padding: 0;
-		width: 100%;
+		width: 150%;
 		text-align: center;
 	}
 	.header-text{
 		padding: 0;
+		width: 150%;
+	}
+	.header-image{
+		width: 80%;
+	}
+	.product-info-image{
+		width: 65rem;
+		margin-left: -20rem;
+	}
+	.link{
+		font-size: 2rem;
+	}
+	.testimonial-text-box{
+		font-size: 3.2rem;
+	}
+	.row-name{
+		width: 110%;
+	}
+	.name{
 		width: 100%;
+	}
+	.name-firstname{
+		margin-left: 1rem;
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.name-lastname{
+		margin-left: 1rem;
+		width: 90%;
+	}
+
+	.footer-content{
+		margin: 0;
+	}
+	.footer-row{
+		width: 100%;
+		margin: 0;
 	}
 	.col-sm-5{
 		margin: 0 auto;
