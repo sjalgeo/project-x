@@ -22,45 +22,51 @@ body {
 .section-head {
   background-color: #1d3b53;
   color: #ffffff;
-  height: 70rem;
+  height: 90rem;
 }
 .header {
-	padding-top: 10rem;
 	display: flex;
-	justify-content: center;
+  justify-content: center;
   max-width: 100%;
+  margin: 3rem 0;
 }
 .header-title {
 	display: flex;
 	justify-content: flex-end;
 	text-align: right;
   padding-right: 1rem;
+  font-size: 3rem;
   width: 25%;
+  max-width: 50rem;
 }
-.header-text {
+.header-text{
+  width: 95%;
+  word-spacing: .03rem;
+  line-height: 3rem;
+  margin-top: 4rem;
+}
+.header-right {
 	display: flex;
-	justify-content: flex-end;
-	flex-direction: column;
+	justify-content: flex-start;
+  flex-direction: column;
   width: 25%;
+  max-width: 50rem;
 	padding-left: 7rem;
-	margin-bottom: 2rem
 }
-
-
-.show {
-  display: block;
+.header-button{
+  margin-top: 13rem;
 }
 .red-punctuation {
   color: #ff102d;
 }
 .button-round {
   border: none;
-  height: 3rem;
-  width: 80%;
+  padding:2rem;
   border-radius: 4rem;
   color: #ffffff;
   background-color: #ff102d;
   cursor: pointer;
+  text-align: center;
 }
 .header-image-box {
   display: flex;
@@ -68,38 +74,38 @@ body {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -30rem;
-  width: 90rem;
-  height: 50rem;
-
+  width: 100%;
+  height: 60rem;
 }
 .header-image{
-  width: 100%;
-  object-fit: contain;
+  position: absolute;
 }
 .button-border {
   z-index: 1;
+  border: 1px solid #000000;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  position: absolute;
-  width: 9rem;
-  height: 9rem;
-  right: 80%;
+  position: relative;
+  width: 15rem;
+  height: 15rem;
+  right: 35rem;
+  top: 5rem;
   border-radius: 50%;
-  top: 10%;
 }
 .play {
   height: 3rem;
   width: 0;
-  margin: 1.5rem auto 0 4.5rem;
-  border-top: 3rem solid transparent;
-  border-left: 5rem solid #000000;
-  border-right: 3rem solid transparent;
-  border-bottom: 3rem solid transparent;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 20%;
+  border-top: 2rem solid transparent;
+  border-left: 3rem solid #000000;
+  border-right: 2rem solid transparent;
+  border-bottom: 2rem solid transparent;
 }
 .section-product-info {
-  margin-top: 2.5%;
+  margin-top: 20rem;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -181,20 +187,25 @@ i {
   background-color: #b9e6ff;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   height: 50rem;
   padding-top: 10rem;
 }
 .form-text {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
   text-align: right;
   padding-right: 10rem;
-  width: 50%;
+  width: 25%;
 }
 .form-entry {
   display: flex;
   justify-content: flex-start;
   padding-top: 2rem;
-  width: 50%;
+  width: 25%;
   padding-left: 10rem;
   margin-bottom: 2rem;
 }
@@ -232,9 +243,7 @@ i {
   display: flex;
   justify-content: flex-end;
 }
-.submit-button{
-  width: 20%;
-}
+
 .footer {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -350,10 +359,11 @@ li {
 option {
   color: #000000;
 }
-
 @media (max-width: 992px) {
+ 
   body {
     text-align: center;
+    font-size: 1.6rem;
   }
   .c-nav__burger {
     display: flex;
@@ -398,60 +408,99 @@ option {
     padding-left: 2rem;
   }
   .section-head{
-    height: 90rem;
+    height: 100rem;
   }
   .header{
+    margin: 0;
     flex-direction: column;
   }
+  .header-image-box{
+    margin-top: 3rem;
+    width: 90%;
+  }
+  .header-image{
+    width: 100%;
+  }
   .header-title{
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
   }
   .header-text{
+    width: 100%;
+  }
+  .button-border{
+    right: 35rem;
+    height: 10rem;
+    width: 10rem;
+  }
+  .play{
+    left: 5rem;
+  }
+  .header-right{
+    width: 100%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
   }
-  .header-image-box{
-    margin-top: -40rem;
+  .header-text{
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
   }
   .section-product-info{
     flex-direction: column;
+    margin-top: 13rem;
   }
   .product-left{
     margin: 0 auto;
     padding: 0;
+    width: 100%;
   }
+.link{
+  display: flex;
+  justify-content: center;
+}
+
   .product-right{
     margin: 0 auto;
     padding: 5rem 0 0 0;
+    width: 100%;
   }
   .section-testimonial{
     flex-direction: column;
   }
   .section-testimonial-image{
     margin: 0 auto;
+    width: 100%;
   }
   .testimonial-text-box{
     padding: 0;
+    width: 100%;
   }
   .text-box{
     padding: 0;
     text-align: center;
+    width: 75%;
   }
   .section-form{
     flex-direction: column;
     justify-content: center;
-    height: 70rem;
+    height: 40rem;
   }
   .form-text{
     margin: 0 auto;
     padding: 0;
+    width: 100%;
   }
   .form-entry{
     margin: 0 auto;
     padding: 0;
+    width: 70%;
+  }
+  .form-input{
+    height: 5rem;
   }
   .name{
     flex-direction: column;
@@ -466,11 +515,25 @@ option {
     padding: 0;
     width: 100%;
   }
+  .section-form{
+    height: 150rem;
+  }
   form{
     width: 100%;
+    margin-bottom: 5rem;
+  }
+  input{
+    font-size: 4rem;
+  }
+  .form-text{
+    text-align: center;
+  }
+  .submit-button-position{
+    justify-content: center;
   }
   .submit-button{
     margin-bottom: 2rem;
+    text-align: center;
   }
   .footer-content{
     flex-direction: column;
