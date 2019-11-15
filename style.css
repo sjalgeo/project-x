@@ -33,17 +33,20 @@ body {
 .header-title {
 	display: flex;
 	justify-content: flex-end;
-	text-align: right;
+  text-align: right;
+  letter-spacing: 0.2rem;
   padding-right: 1rem;
   font-size: 3rem;
   width: 25%;
+  min-width: 40rem;
   max-width: 50rem;
 }
 .header-text{
   width: 95%;
-  word-spacing: .03rem;
   line-height: 3rem;
   margin-top: 4rem;
+  font-weight: 100;
+  font-size: 2rem;
 }
 .header-right {
 	display: flex;
@@ -54,7 +57,7 @@ body {
 	padding-left: 7rem;
 }
 .header-button{
-  margin-top: 7rem;
+  padding-top: 12rem;
 }
 .red-punctuation {
   color: #ff102d;
@@ -63,6 +66,7 @@ body {
   border: none;
   padding:2rem;
   border-radius: 4rem;
+  font-size: 1.6rem;
   color: #ffffff;
   background-color: #ff102d;
   cursor: pointer;
