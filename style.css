@@ -22,7 +22,7 @@ body {
 .section-head {
   background-color: #1d3b53;
   color: #ffffff;
-  height: 90rem;
+  height: 80rem;
 }
 .header {
 	display: flex;
@@ -54,7 +54,7 @@ body {
 	padding-left: 7rem;
 }
 .header-button{
-  margin-top: 13rem;
+  margin-top: 7rem;
 }
 .red-punctuation {
   color: #ff102d;
@@ -92,6 +92,7 @@ body {
   right: 35rem;
   top: 5rem;
   border-radius: 50%;
+  cursor: pointer;
 }
 .play {
   height: 3rem;
@@ -103,6 +104,7 @@ body {
   border-left: 3rem solid #000000;
   border-right: 2rem solid transparent;
   border-bottom: 2rem solid transparent;
+  cursor: pointer;
 }
 .section-product-info {
   margin-top: 20rem;
@@ -331,14 +333,14 @@ li {
   cursor: pointer;
 }
 
-.button--round {
+.button--nav {
   border: 2px solid #ffffff;
   background: none;
   color: #ffffff;
   border-radius: 5rem;
 }
 
-.button--round:hover {
+.button--nav:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
 .c-nav__burger {
@@ -360,7 +362,6 @@ option {
   color: #000000;
 }
 @media (max-width: 992px) {
- 
   body {
     text-align: center;
     font-size: 1.6rem;
@@ -431,7 +432,7 @@ option {
     width: 100%;
   }
   .button-border{
-    right: 35rem;
+    right: 35%;
     height: 10rem;
     width: 10rem;
   }
