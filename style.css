@@ -32,32 +32,41 @@ body {
 }
 .header-title {
 	display: flex;
-	justify-content: flex-end;
+  justify-content:  flex-end;
   text-align: right;
   letter-spacing: 0.2rem;
-  padding-right: 1rem;
-  font-size: 3rem;
-  width: 25%;
-  min-width: 40rem;
+  font-size: 2.5rem;
+  margin-left: 40rem;
+  width: 50%;
+  min-width: 45rem;
   max-width: 50rem;
 }
+.header-title-text{
+  width: 40rem;
+}
 .header-text{
-  width: 95%;
+  width: 80%;
   line-height: 3rem;
   margin-top: 4rem;
+  position: relative;
+  right: 18rem;
   font-weight: 100;
   font-size: 2rem;
 }
+.header-button{
+  position: relative;
+  top: 27rem;
+  left: 8rem;
+  width: 150%;
+ }
+
 .header-right {
 	display: flex;
 	justify-content: flex-start;
   flex-direction: column;
-  width: 25%;
+  width: 50%;
   max-width: 50rem;
 	padding-left: 7rem;
-}
-.header-button{
-  padding-top: 12rem;
 }
 .red-punctuation {
   color: #ff102d;
@@ -71,11 +80,13 @@ body {
   background-color: #ff102d;
   cursor: pointer;
   text-align: center;
+  width: 100%;
 }
 .header-image-box {
   display: flex;
   justify-content: center;
   position: relative;
+  top: 40rem;
   margin-left: auto;
   margin-right: auto;
   width: 100%;
@@ -413,7 +424,7 @@ option {
     padding-left: 2rem;
   }
   .section-head{
-    height: 100rem;
+    height: 90rem;
   }
   .header{
     margin: 0;
@@ -431,12 +442,25 @@ option {
     margin: 0 auto;
     padding: 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .header-title-text{
+    position: absolute;
   }
   .header-text{
     width: 100%;
+    position: relative;
+    top: 25rem;
+    left: 1rem;
+  }
+  .header-button{
+    width: 25%;
+    position: absolute;
+    top: 40rem;
+    left: 37rem;    
   }
   .button-border{
-    right: 35%;
     height: 10rem;
     width: 10rem;
   }
@@ -492,7 +516,8 @@ option {
   .section-form{
     flex-direction: column;
     justify-content: center;
-    height: 40rem;
+    height: auto;
+    padding: 5rem 0;
   }
   .form-text{
     margin: 0 auto;
@@ -520,15 +545,12 @@ option {
     padding: 0;
     width: 100%;
   }
-  .section-form{
-    height: 150rem;
-  }
   form{
     width: 100%;
     margin-bottom: 5rem;
   }
   input{
-    font-size: 4rem;
+    font-size: 1.6rem;
   }
   .form-text{
     text-align: center;
