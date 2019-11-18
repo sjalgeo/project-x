@@ -149,9 +149,6 @@ i {
 .link-text {
   margin-left: 4rem;
 }
-.section-product-info-button {
-  margin-top: 10rem;
-}
 .product-info-image-box {
 	display: flex;
   justify-content: center;
@@ -162,6 +159,9 @@ i {
   line-height: 6rem;
 }
 .product-left{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   width: 25%;
   padding-right: 5rem;
   line-height: 3rem;
@@ -170,9 +170,9 @@ i {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
   width: 25%;
   padding-left: 5rem;
-  padding-top: 7rem;
 }
 .product-info-image {
 	height: 100%;
