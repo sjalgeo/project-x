@@ -28,9 +28,10 @@ body {
 	display: flex;
   justify-content: center;
   max-width: 100%;
-  margin: 5rem 0;
+  padding-top: 10rem;
+  margin-bottom: 5rem;
 }
-.header-title {
+.header-left {
 	display: flex;
   justify-content:  flex-end;
   text-align: right;
@@ -39,7 +40,6 @@ body {
   width: 50%;
   min-width: 45rem;
   max-width: 50rem;
-  margin-top: 5rem;
 }
 .header-title-text{
   width: 40rem;
@@ -48,7 +48,6 @@ body {
 .header-text{
   width: 80%;
   line-height: 3rem;
-  margin-top: 5rem;
   position: relative;
   font-weight: 100;
   font-size: 2rem;
