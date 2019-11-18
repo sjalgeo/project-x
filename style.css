@@ -15,6 +15,8 @@ body {
   font-size: 1.6rem;
   overflow-x: hidden;
   max-width: 100%;
+  margin: 0;
+  padding: 1rem;
 }
 .container {
   background-color: #ffffff;
@@ -314,15 +316,12 @@ li {
 
 /*-- nav --*/
 .c-nav {
-  width: 100%;
+  width: calc(100%-20px);
   position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
+  top: 1rem;
+  right: 1rem;
+  left: 1rem;
   background-color: #1d3b53;
-  border-left: .8rem solid #f7f8f8;
-  border-right: .8rem solid #f7f8f8;
-  border-bottom: 0 solid transparent;
   z-index: 2;
   color: #ffffff;
 }
