@@ -28,7 +28,7 @@ body {
 	display: flex;
   justify-content: center;
   max-width: 100%;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 .header-title {
 	display: flex;
@@ -429,11 +429,12 @@ option {
     padding-left: 2rem;
   }
   .section-head{
-    height: 90rem;
+    height: 85rem;
   }
   .header{
-    margin: 0;
     flex-direction: column;
+    justify-content: center;
+    margin: 0;
   }
   .header-image-box{
     margin-top: 3rem;
@@ -444,24 +445,18 @@ option {
   }
   .header-title{
     width: 100%;
-    margin: 0 auto;
+    margin: 5rem auto 0 auto;
     padding: 0;
     text-align: center;
     display: flex;
     justify-content: center;
   }
-  .header-title-text{
-    position: absolute;
-  }
   .header-text{
     width: 100%;
-    position: relative;
-    top: 25rem;
-    left: 1rem;
   }
   .header-button{
-    width: 25%;
-    position: absolute;  
+    width: 50%;
+    margin: 0 auto;
   }
   .button-border{
     height: 10rem;
