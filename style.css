@@ -201,15 +201,14 @@ p{
   background-color: #f7f8f8;
   display: flex;
   justify-content: center;
+  height: 50rem;
 }
 .section-testimonial-image{
   width: 50%;
-}
+  background: url("https://picsum.photos/1000/900");
+  background-repeat: no-repeat;
+} 
 
-.testimonial-image {
-  margin: auto 0;
-  width: 100%;
-}
 .testimonial-text-box {
   display: flex;
   justify-content: center;
