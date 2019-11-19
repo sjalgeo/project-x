@@ -325,7 +325,12 @@ li {
 .ul li {
   display: inline;
 }
-.ul li:hover{
+.c-nav__link{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+.c-nav__link:hover{
   color: #ff102d
 }
 
@@ -340,6 +345,7 @@ li {
   z-index: 2;
   color: #ffffff;
 }
+
 .c-nav__inner {
   display: flex;
   align-items: center;
