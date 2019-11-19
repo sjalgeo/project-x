@@ -308,8 +308,13 @@ li {
 .ul li {
   display: inline;
 }
-.ul li:hover{
-  color: #ff102d
+.c-nav__link{
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 200ms ease-in-out;
+}
+.c-nav__link:hover{
+  color:#ff102d;
 }
 
 /*-- nav --*/
