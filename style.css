@@ -149,19 +149,25 @@ i {
 .link-text {
   margin-left: 4rem;
 }
-.section-product-info-button {
-  margin-top: 10rem;
-}
 .product-info-image-box {
 	display: flex;
   justify-content: center;
+}
+.product-text{
+  margin-bottom: 2rem;
 }
 .product-header{
   font-size: 2.6rem;
   letter-spacing: 0.2rem;
   line-height: 6rem;
 }
+.product-info-button{
+  width: 30%;
+}
 .product-left{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
   width: 25%;
   padding-right: 5rem;
   line-height: 3rem;
@@ -170,10 +176,11 @@ i {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
   width: 25%;
   padding-left: 5rem;
-  padding-top: 7rem;
 }
+
 .product-info-image {
 	height: 100%;
 	width: 100%;
@@ -181,6 +188,9 @@ i {
 }
 .product-info-text2 {
   text-align: center;
+}
+p{
+  margin: 0;
 }
 .section-testimonial {
   background-color: #f7f8f8;
