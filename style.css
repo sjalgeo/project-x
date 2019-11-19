@@ -72,13 +72,18 @@ body {
 .button-round {
   border: none;
   padding:2rem;
+  font-family: "Poppins", sans-serif;
   border-radius: 4rem;
   font-size: 1.6rem;
+  transition: all 200ms ease-in-out;
   color: #ffffff;
   background-color: #ff102d;
   cursor: pointer;
   text-align: center;
   width: 100%;
+}
+.button-round:hover{
+  background-color: rgba(255, 16, 45, 0.3)
 }
 .header-image-box {
   display: flex;
