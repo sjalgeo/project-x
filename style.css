@@ -206,6 +206,7 @@ p{
 .section-testimonial-image{
   width: 50%;
   background: url("https://picsum.photos/1000/900") no-repeat center center;
+  background-size: cover;
 } 
 
 .testimonial-text-box {
