@@ -226,9 +226,9 @@ p{
   display: flex;
   justify-content: center;
   margin-top: 1rem;
-  align-items: center;
+  padding-top: 0;
   flex-direction: row;
-  height: 100rem;
+  height: 80rem;
 }
 form{
   width: 50%;
@@ -239,6 +239,8 @@ form{
   flex-direction: column;
   align-items: center;
   text-align: right;
+  position: relative;
+  bottom: 10rem;
   width: 50%;
   font-size: 4rem;
 }
@@ -257,10 +259,10 @@ form{
 .form-entry {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 50%;
   position: relative;
   right: 5rem;
-  top: 9rem;
 }
 .name {
   width: 100%;
