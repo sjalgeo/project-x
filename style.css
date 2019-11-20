@@ -71,7 +71,7 @@ body {
 }
 .button-round {
   border: none;
-  padding:2rem;
+  padding:1rem 2rem; 
   font-family: "Poppins", sans-serif;
   border-radius: 4rem;
   font-size: 1.6rem;
@@ -235,7 +235,7 @@ form{
 }
 .form-text {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: right;
@@ -245,21 +245,21 @@ form{
 .form-text h1{
   width: 50%;
   position: relative;
-  left: 20rem;
+  left: 15rem;
 }
 .form-text p{
   font-size: 2rem;
   width: 50%;
   position: relative;
-  left: 20rem;
-  bottom: 5rem;
+  left: 15rem;
+  bottom: 2rem;
 }
 .form-entry {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 50%;
   position: relative;
-  left: 10rem;
+  right: 5rem;
   top: 9rem;
 }
 .name {
@@ -285,7 +285,7 @@ form{
 .form-input {
   background-color: #b9e6ff;
   border: 0;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #98989c;
   margin-bottom: 3rem;
   height: 5rem;
 }
@@ -321,7 +321,7 @@ form{
 
 
 h3 {
-  margin-left: 37px;
+  margin-left: 3.7rem;
   /* aligns the headers in the footer row */
 }
 li {
