@@ -467,7 +467,7 @@ option {
   .header {
     flex-direction: column;
     justify-content: center;
-    margin: 0;
+    margin: 0 auto;
   }
   .header-image-box {
     margin-top: 3rem;
@@ -476,13 +476,14 @@ option {
   .header-image {
     width: 100%;
   }
-  .header-title {
-    width: 100%;
-    margin: 5rem auto 0 auto;
-    padding: 0;
-    text-align: center;
+  .header-left{
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .header-title-text{
+    text-align: center;
   }
   .header-text {
     width: 100%;
