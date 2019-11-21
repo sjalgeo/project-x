@@ -27,15 +27,15 @@ body {
   height: 80rem;
 }
 .header {
-	display: flex;
+  display: flex;
   justify-content: center;
   max-width: 100%;
   padding-top: 10rem;
   margin-bottom: 5rem;
 }
 .header-left {
-	display: flex;
-  justify-content:  flex-end;
+  display: flex;
+  justify-content: flex-end;
   text-align: right;
   letter-spacing: 0.2rem;
   font-size: 2.5rem;
@@ -56,19 +56,19 @@ body {
 }
 
 .header-right {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
   width: 50%;
   max-width: 50rem;
-	padding-left: 7rem;
+  padding-left: 7rem;
 }
 .red-punctuation {
   color: #ff102d;
 }
 .button-round {
   border: none;
-  padding:1.5rem 3rem; 
+  padding: 1.5rem 3rem;
   font-family: "Poppins", sans-serif;
   border-radius: 4rem;
   font-size: 1.6rem;
@@ -79,7 +79,7 @@ body {
   text-align: center;
 }
 .button-round:hover {
-  background-color: rgba(255, 16, 45, 0.3)
+  background-color: rgba(255, 16, 45, 0.3);
 }
 .header-image-box {
   display: flex;
@@ -151,7 +151,7 @@ i {
   margin-left: 4rem;
 }
 .product-info-image-box {
-	display: flex;
+  display: flex;
   justify-content: center;
 }
 .product-text {
@@ -183,9 +183,9 @@ i {
 }
 
 .product-info-image {
-	height: 100%;
-	width: 100%;
-	object-fit: contain;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .product-info-text2 {
   text-align: center;
@@ -203,7 +203,7 @@ p {
   width: 50%;
   background: url("https://picsum.photos/1000/900") no-repeat center center;
   background-size: cover;
-} 
+}
 
 .testimonial-text-box {
   display: flex;
@@ -225,7 +225,7 @@ p {
   padding-top: 0;
   flex-direction: row;
   height: 80rem;
-} 
+}
 form {
   width: 50%;
 }
@@ -316,7 +316,6 @@ form {
   flex-direction: row;
 }
 
-
 h3 {
   margin-left: 3.7rem;
   /* aligns the headers in the footer row */
@@ -346,7 +345,7 @@ li {
   transition: all 200ms ease-in-out;
 }
 .c-nav__link:hover {
-  color:#ff102d;
+  color: #ff102d;
 }
 
 /*-- nav --*/
@@ -518,15 +517,18 @@ option {
     padding: 0;
     width: 100%;
   }
-.link {
-  display: flex;
-  justify-content: center;
-}
+  .link {
+    display: flex;
+    justify-content: center;
+  }
 
   .product-right {
     margin: 0 auto;
     padding: 5rem 0 0 0;
     width: 100%;
+  }
+  .product-info-button {
+    margin: 0 auto;
   }
   .section-testimonial {
     flex-direction: column;
