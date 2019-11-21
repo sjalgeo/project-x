@@ -127,7 +127,7 @@ body {
   background-color: #ffffff;
   margin-bottom: 10rem;
 }
-.link {
+.text-button {
   font-size: 2rem;
   line-height: 4rem;
   margin-bottom: 1rem;
@@ -136,6 +136,7 @@ body {
 .link-text {
   position: relative;
   bottom: 1rem;
+  margin-left: 4rem;
 }
 .icon-link:hover {
   color: #ff102d;
@@ -146,9 +147,6 @@ body {
 }
 i {
   position: absolute;
-}
-.link-text {
-  margin-left: 4rem;
 }
 .product-info-image-box {
 	display: flex;
@@ -518,9 +516,11 @@ body {
     padding: 0;
     width: 100%;
   }
-.link {
-  display: flex;
-  justify-content: center;
+.product-link{
+  margin: 0 auto;
+}
+.text-button{
+  font-size: 3rem;
 }
 
 .product-right {
