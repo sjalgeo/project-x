@@ -43,11 +43,11 @@ body {
   min-width: 45rem;
   max-width: 50rem;
 }
-.header-title-text{
+.header-title-text {
   width: 40rem;
   margin: 0;
 }
-.header-text{
+.header-text {
   width: 80%;
   line-height: 3rem;
   position: relative;
@@ -63,9 +63,6 @@ body {
   max-width: 50rem;
 	padding-left: 7rem;
 }
-.header-button{
-  width: 50%;
-}
 .red-punctuation {
   color: #ff102d;
 }
@@ -80,9 +77,8 @@ body {
   background-color: #ff102d;
   cursor: pointer;
   text-align: center;
-  margin-left: auto;
 }
-.button-round:hover{
+.button-round:hover {
   background-color: rgba(255, 16, 45, 0.3)
 }
 .header-image-box {
@@ -94,7 +90,7 @@ body {
   width: 100%;
   height: 60rem;
 }
-.header-image{
+.header-image {
   position: absolute;
 }
 .button-border {
@@ -137,7 +133,7 @@ body {
   margin-bottom: 1rem;
   text-align: left;
 }
-.link-text{
+.link-text {
   position: relative;
   bottom: 1rem;
 }
@@ -158,18 +154,18 @@ i {
 	display: flex;
   justify-content: center;
 }
-.product-text{
+.product-text {
   margin-bottom: 2rem;
 }
-.product-header{
+.product-header {
   font-size: 2.6rem;
   letter-spacing: 0.2rem;
   line-height: 6rem;
 }
-.product-info-button{
+.product-info-button {
   width: 30%;
 }
-.product-left{
+.product-left {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -177,7 +173,7 @@ i {
   padding-right: 5rem;
   line-height: 3rem;
 }
-.product-right{
+.product-right {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -194,7 +190,7 @@ i {
 .product-info-text2 {
   text-align: center;
 }
-p{
+p {
   margin: 0;
 }
 .section-testimonial {
@@ -203,7 +199,7 @@ p{
   justify-content: center;
   height: 50rem;
 }
-.section-testimonial-image{
+.section-testimonial-image {
   width: 50%;
   background: url("https://picsum.photos/1000/900") no-repeat center center;
   background-size: cover;
@@ -218,7 +214,7 @@ p{
   text-align: left;
   font-size: 2.5rem;
 }
-.text-box{
+.text-box {
   width: 50%;
 }
 .section-form {
@@ -229,8 +225,8 @@ p{
   padding-top: 0;
   flex-direction: row;
   height: 80rem;
-}
-form{
+} 
+form {
   width: 50%;
 }
 .form-text {
@@ -244,12 +240,12 @@ form{
   width: 50%;
   font-size: 4rem;
 }
-.form-text h1{
+.form-text h1 {
   width: 50%;
   position: relative;
   left: 15rem;
 }
-.form-text p{
+.form-text p {
   font-size: 2rem;
   width: 50%;
   position: relative;
@@ -270,18 +266,18 @@ form{
   justify-content: center;
   flex-direction: row;
 }
-.name-firstname{
+.name-firstname {
   width: 50%;
   margin-right: 1rem;
 }
-.input-firstname{
+.input-firstname {
   width: 100%;
 }
-.name-lastname{
+.name-lastname {
   width: 50%;
   margin-left: 1rem;
 }
-.input-lastname{
+.input-lastname {
   width: 100%;
 }
 .form-input {
@@ -291,7 +287,7 @@ form{
   margin-bottom: 3rem;
   height: 5rem;
 }
-.button-contain{
+.button-contain {
   width: 100%;
   display: block;
   text-align: right;
@@ -344,12 +340,12 @@ li {
 .ul li {
   display: inline;
 }
-.c-nav__link{
+.c-nav__link {
   text-decoration: none;
   color: #ffffff;
   transition: all 200ms ease-in-out;
 }
-.c-nav__link:hover{
+.c-nav__link:hover {
   color:#ff102d;
 }
 
@@ -465,22 +461,22 @@ option {
     text-align: left;
     padding-left: 2rem;
   }
-  .section-head{
+  .section-head {
     height: 85rem;
   }
-  .header{
+  .header {
     flex-direction: column;
     justify-content: center;
     margin: 0;
   }
-  .header-image-box{
+  .header-image-box {
     margin-top: 3rem;
     width: 90%;
   }
-  .header-image{
+  .header-image {
     width: 100%;
   }
-  .header-title{
+  .header-title {
     width: 100%;
     margin: 5rem auto 0 auto;
     padding: 0;
@@ -488,120 +484,120 @@ option {
     display: flex;
     justify-content: center;
   }
-  .header-text{
+  .header-text {
     width: 100%;
   }
-  .header-button{
+  .header-button {
     width: 50%;
     margin: 0 auto;
   }
-  .button-border{
+  .button-border {
     height: 10rem;
     width: 10rem;
   }
-  .play{
+  .play {
     left: 5rem;
   }
-  .header-right{
+  .header-right {
     width: 100%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
   }
-  .header-text{
+  .header-text {
     text-align: center;
     margin: 0 auto;
     padding: 0;
   }
-  .section-product-info{
+  .section-product-info {
     flex-direction: column;
     margin-top: 13rem;
   }
-  .product-left{
+  .product-left {
     margin: 0 auto;
     padding: 0;
     width: 100%;
   }
-.link{
+.link {
   display: flex;
   justify-content: center;
 }
 
-  .product-right{
+  .product-right {
     margin: 0 auto;
     padding: 5rem 0 0 0;
     width: 100%;
   }
-  .section-testimonial{
+  .section-testimonial {
     flex-direction: column;
   }
-  .section-testimonial-image{
+  .section-testimonial-image {
     margin: 0 auto;
     width: 100%;
   }
-  .testimonial-text-box{
+  .testimonial-text-box {
     padding: 0;
     width: 100%;
   }
-  .text-box{
+  .text-box {
     padding: 0;
     text-align: center;
     width: 75%;
   }
-  .section-form{
+  .section-form {
     flex-direction: column;
     justify-content: center;
     height: auto;
     padding: 5rem 0;
   }
-  .form-text{
+  .form-text {
     margin: 0 auto;
     padding: 0;
     width: 100%;
   }
-  .form-entry{
+  .form-entry {
     margin: 0 auto;
     padding: 0;
     width: 70%;
   }
-  .form-input{
+  .form-input {
     height: 5rem;
   }
-  .name{
+  .name {
     flex-direction: column;
   }
-  .name-firstname{
+  .name-firstname {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  .name-lastname{
+  .name-lastname {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  form{
+  form {
     width: 100%;
     margin-bottom: 5rem;
   }
-  input{
+  input {
     font-size: 1.6rem;
   }
-  .form-text{
+  .form-text {
     text-align: center;
   }
-  .submit-button-position{
+  .submit-button-position {
     justify-content: center;
   }
-  .submit-button{
+  .submit-button {
     margin-bottom: 2rem;
     text-align: center;
   }
-  .footer-content{
+  .footer-content {
     flex-direction: column;
     text-align: center;
   }
-  .logo-icon{
+  .logo-icon {
     margin-right: 6rem;
     margin-bottom: 4rem;
   }
