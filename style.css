@@ -476,7 +476,7 @@ option {
   .header-image {
     width: 100%;
   }
-  .header-left{
+  .header-left {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -519,9 +519,15 @@ option {
     padding: 0;
     width: 100%;
   }
+  .product-link {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
 .link {
-  display: flex;
-  justify-content: center;
+  font-size: 3rem;
+
 }
 
   .product-right {
