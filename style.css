@@ -127,7 +127,7 @@ body {
   background-color: #ffffff;
   margin-bottom: 10rem;
 }
-.link {
+.text-button {
   font-size: 2rem;
   line-height: 4rem;
   margin-bottom: 1rem;
@@ -136,6 +136,7 @@ body {
 .link-text {
   position: relative;
   bottom: 1rem;
+  margin-left: 4rem;
 }
 .icon-link:hover {
   color: #ff102d;
@@ -146,9 +147,6 @@ body {
 }
 i {
   position: absolute;
-}
-.link-text {
-  margin-left: 4rem;
 }
 .product-info-image-box {
 	display: flex;
@@ -415,11 +413,11 @@ option {
   color: #000000;
 }
 @media (max-width: 992px) {
-  body {
+body {
     text-align: center;
     font-size: 1.6rem;
   }
-  .c-nav__burger {
+.c-nav__burger {
     display: flex;
     position: absolute;
     align-items: center;
@@ -433,7 +431,7 @@ option {
     width: 4rem;
     height: 4rem;
   }
-  .c-nav__inner {
+.c-nav__inner {
     position: absolute;
     top: 0;
     right: 0;
@@ -448,163 +446,158 @@ option {
     transform: translateX(120%);
     transition: all 200ms ease-in-out;
   }
-  .c-nav__inner--active {
+.c-nav__inner--active {
     transform: translateX(0);
   }
-  .c-nav .ul {
+.c-nav .ul {
     padding: 0;
   }
-  .c-nav .ul li {
+.c-nav .ul li {
     display: block;
     width: 100%;
     margin: 0 0 1rem 0 !important;
     text-align: left;
     padding-left: 2rem;
   }
-  .section-head {
+.section-head {
     height: 85rem;
   }
-  .header {
+.header {
     flex-direction: column;
     justify-content: center;
-    margin: 0 auto;
+    margin: 0;
   }
-  .header-image-box {
+.header-image-box {
     margin-top: 3rem;
     width: 90%;
   }
-  .header-image {
+.header-image {
     width: 100%;
   }
-  .header-left {
+.header-title {
+    width: 100%;
+    margin: 5rem auto 0 auto;
+    padding: 0;
+    text-align: center;
     display: flex;
     justify-content: center;
-    margin: 0 auto;
+  }
+.header-text {
     width: 100%;
   }
-  .header-title-text{
-    text-align: center;
-  }
-  .header-text {
-    width: 100%;
-  }
-  .header-button {
+.header-button {
     width: 50%;
     margin: 0 auto;
   }
-  .button-border {
+.button-border {
     height: 10rem;
     width: 10rem;
   }
-  .play {
+.play {
     left: 5rem;
   }
-  .header-right {
+.header-right {
     width: 100%;
     margin: 0 auto;
     padding: 0;
     text-align: center;
   }
-  .header-text {
+.header-text {
     text-align: center;
     margin: 0 auto;
     padding: 0;
   }
-  .section-product-info {
+.section-product-info {
     flex-direction: column;
     margin-top: 13rem;
   }
-  .product-left {
+.product-left {
     margin: 0 auto;
     padding: 0;
     width: 100%;
   }
-  .product-link {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-.link {
+.product-link{
+  margin: 0 auto;
+}
+.text-button{
   font-size: 3rem;
-
 }
 
-  .product-right {
+.product-right {
     margin: 0 auto;
     padding: 5rem 0 0 0;
     width: 100%;
   }
-  .section-testimonial {
+.section-testimonial {
     flex-direction: column;
   }
-  .section-testimonial-image {
+.section-testimonial-image {
     margin: 0 auto;
     width: 100%;
   }
-  .testimonial-text-box {
+.testimonial-text-box {
     padding: 0;
     width: 100%;
   }
-  .text-box {
+.text-box {
     padding: 0;
     text-align: center;
     width: 75%;
   }
-  .section-form {
+.section-form {
     flex-direction: column;
     justify-content: center;
     height: auto;
     padding: 5rem 0;
   }
-  .form-text {
+.form-text {
     margin: 0 auto;
     padding: 0;
     width: 100%;
   }
-  .form-entry {
+.form-entry {
     margin: 0 auto;
     padding: 0;
     width: 70%;
   }
-  .form-input {
+.form-input {
     height: 5rem;
   }
-  .name {
+.name {
     flex-direction: column;
   }
-  .name-firstname {
+.name-firstname {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  .name-lastname {
+.name-lastname {
     margin: 0;
     padding: 0;
     width: 100%;
   }
-  form {
+form {
     width: 100%;
     margin-bottom: 5rem;
   }
-  input {
+input {
     font-size: 1.6rem;
   }
-  .form-text {
+.form-text {
     text-align: center;
   }
-  .submit-button-position {
+.submit-button-position {
     justify-content: center;
   }
-  .submit-button {
+.submit-button {
     margin-bottom: 2rem;
     text-align: center;
   }
-  .footer-content {
+.footer-content {
     flex-direction: column;
     text-align: center;
   }
-  .logo-icon {
+.logo-icon {
     margin-right: 6rem;
     margin-bottom: 4rem;
   }
