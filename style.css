@@ -466,6 +466,11 @@ option {
     justify-content: center;
     margin: 0;
   }
+  .header-left {
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+  }
   .header-image-box {
     margin-top: 3rem;
     width: 90%;
