@@ -534,7 +534,7 @@ option {
   }
   .section-testimonial {
     flex-direction: column;
-    height: 60rem;
+    height: 90rem;
   }
   .section-testimonial-image {
     width: 100%;
@@ -544,6 +544,7 @@ option {
     margin-bottom: 1rem;
   }
   .testimonial-text-box {
+    margin: 5rem 0;
     padding: 0;
     width: 100%;
   }
