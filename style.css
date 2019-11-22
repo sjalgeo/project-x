@@ -552,6 +552,7 @@ option {
     padding: 0;
     text-align: center;
     width: 75%;
+    font-size: 3rem;
   }
   .section-form {
     display: flex;
