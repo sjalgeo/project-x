@@ -234,29 +234,16 @@ form {
   align-items: center;
   text-align: right;
   position: relative;
+  padding-left: 25%;
   bottom: 10rem;
   width: 50%;
-  font-size: 4rem;
-}
-.form-text h1 {
-  width: 50%;
-  position: relative;
-  left: 15rem;
-}
-.form-text p {
   font-size: 2rem;
-  width: 50%;
-  position: relative;
-  left: 15rem;
-  bottom: 2rem;
 }
 .form-entry {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   width: 50%;
-  position: relative;
-  left: 20rem;
 }
 .name {
   width: 100%;
@@ -565,14 +552,15 @@ option {
     padding: 5rem 0;
   }
   .form-text {
-    position: relative;
-    right: 15rem;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin: 5rem auto 0 auto;
+    padding: 0;
+    width: 50%;
   }
   .form-entry {
-    width: 60%;
+    width: 50%;
+    margin: 0 auto;
   }
   .form-input {
     height: 5rem;
@@ -593,7 +581,6 @@ option {
   }
   form {
     width: 100%;
-    margin-bottom: 5rem;
   }
   input {
     font-size: 1.6rem;
