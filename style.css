@@ -307,14 +307,24 @@ form {
   justify-content: space-between;
   flex-direction: row;
 }
-.footer__drop-container {
+.footer__options-container {
+  margin: 0 auto;
+  width: 97%;
   display: flex;
-  justify-content: flex-start;
-  margin: 0 1% 2rem 1%;
+  justify-content: center;
   border-top: 1px solid #98989c;
 }
 .footer__dropdown {
-  margin: 2rem 1.5% 2rem 1.5%;
+  margin: 2rem 0 2rem 1.5%;
+}
+.footer__copyright {
+  margin: 2rem auto 2rem auto;
+}
+.fa-copyright {
+  margin-top: 0.5rem;
+}
+.footer__copyright--text {
+  margin-left: 2rem;
 }
 h3 {
   margin-left: 3.7rem;
@@ -608,5 +618,17 @@ option {
   .logo-icon {
     margin-right: 6rem;
     margin-bottom: 4rem;
+  }
+  .footer__options-container {
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footer__dropdown {
+    margin: 0 auto;
+  }
+  .footer__copyright {
+    margin: 0 auto 1rem auto;
   }
 }
