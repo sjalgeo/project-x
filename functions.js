@@ -3,15 +3,11 @@ document.querySelector(".c-nav__burger").addEventListener("click", () => {
   navInner.classList.toggle("c-nav__inner--active");
 });
 
-$(function() {
-  var nav = $(".c-nav");
-  $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
+const nav = document.querySelector(".c-nav");
+window.addEventListener("scroll", () => {
+  //   const scroll = ;
 
-    if (scroll >= 20) {
-      nav.addClass("c-nav--alt");
-    } else {
-      nav.removeClass("c-nav--alt");
-    }
-  });
+  window.scrollY >= 20
+    ? nav.classList.add("c-nav--alt")
+    : nav.classList.remove("c-nav--alt");
 });
