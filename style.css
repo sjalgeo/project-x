@@ -359,6 +359,7 @@ li {
   z-index: 2;
   color: #ffffff;
   transition: all 200ms ease-in-out;
+  padding: 1rem 0;
 }
 .c-nav--alt {
   top: 0;
