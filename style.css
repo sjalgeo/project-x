@@ -18,6 +18,14 @@ body {
   margin: 0;
   padding: 1rem;
 }
+select {
+  cursor: pointer;
+  width: 10rem;
+  border: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
 .container {
   background-color: #ffffff;
 }
@@ -299,7 +307,15 @@ form {
   justify-content: space-between;
   flex-direction: row;
 }
-
+.footer__drop-container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 1% 2rem 1%;
+  border-top: 1px solid #98989c;
+}
+.footer__dropdown {
+  margin: 2rem 1.5% 2rem 1.5%;
+}
 h3 {
   margin-left: 3.7rem;
   /* aligns the headers in the footer row */
@@ -384,13 +400,7 @@ li {
 }
 /* -- Dropdown -- */
 .c-nav__dropdown {
-  cursor: pointer;
-  border: none;
-  width: 10rem;
-  font-size: 1.6rem;
   color: #ffffff;
-  background: transparent;
-  font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
 
