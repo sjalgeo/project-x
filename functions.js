@@ -12,7 +12,7 @@ window.addEventListener("scroll", () => {
 });
 
 const pageVideo = document.querySelector(".header__video");
-document.querySelector(".button-border .play").addEventListener("click", () => {
+document.querySelector(".play-button").addEventListener("click", () => {
   if (pageVideo.paused) {
     pageVideo.play();
   } else {
