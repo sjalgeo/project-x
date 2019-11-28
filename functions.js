@@ -11,12 +11,11 @@ window.addEventListener("scroll", () => {
     : nav.classList.remove("c-nav--alt");
 });
 
-const pageVideo = document.getElementById("header__video");
-
-function playPause() {
+const pageVideo = document.querySelector(".header__video");
+document.querySelector(".button-border .play").addEventListener("click", () => {
   if (pageVideo.paused) {
     pageVideo.play();
   } else {
     pageVideo.pause();
   }
-}
+});
