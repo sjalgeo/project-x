@@ -73,16 +73,18 @@
         </div>
       </div>
       <div class="header-image-box">
-        <video controls>
+        <video id="header__video">
           <source
-            width="100%"
             src="resources/Video/Slaps Slow Motion.mp4"
             type="video/mp4"
           />
+          <div class="button-border" onclick="playPause()">
+            <div class="play" onclick="playPause()"></div>
+          </div>
         </video>
-        <!-- <div class="button-border">
-          <div class="play"></div>
-        </div> -->
+        <div class="button-border" onclick="playPause()">
+          <div class="play" onclick="playPause()"></div>
+        </div>
       </div>
     </header>
 

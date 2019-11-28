@@ -10,3 +10,13 @@ window.addEventListener("scroll", () => {
     ? nav.classList.add("c-nav--alt")
     : nav.classList.remove("c-nav--alt");
 });
+
+const pageVideo = document.getElementById("header__video");
+
+function playPause() {
+  if (pageVideo.paused) {
+    pageVideo.play();
+  } else {
+    pageVideo.pause();
+  }
+}
