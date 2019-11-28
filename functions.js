@@ -20,3 +20,12 @@ function playPause() {
     pageVideo.pause();
   }
 }
+
+function fullScreenToggle() {
+  const videoSize = document.getElementById("video-player");
+  if (videoSize.mozRequestFullScreen) {
+    videoSize.mozRequestFullScreen();
+  } else if (videoSize.webkitRequestFullScreen) {
+    videoSize.webkitRequestFullScreen();
+  }
+}
