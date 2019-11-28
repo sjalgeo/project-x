@@ -11,7 +11,7 @@ window.addEventListener("scroll", () => {
     : nav.classList.remove("c-nav--alt");
 });
 
-const pageVideo = document.getElementById("header__video");
+const pageVideo = document.getElementById("video-player");
 
 function playPause() {
   if (pageVideo.paused) {
