@@ -459,9 +459,6 @@ option {
     text-align: left;
     padding-left: 2rem;
   }
-  .section-head {
-    height: 85rem;
-  }
   .header {
     flex-direction: column;
     justify-content: center;
@@ -497,9 +494,8 @@ option {
   .button-border {
     height: 10rem;
     width: 10rem;
-  }
-  .play {
-    left: 5rem;
+    z-index: 1;
+    right: 40%;
   }
   .header-right {
     width: 100%;
