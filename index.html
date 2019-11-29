@@ -73,16 +73,18 @@
         </div>
       </div>
       <div class="header-image-box">
-        <video controls>
-          <source
-            width="100%"
-            src="resources/Video/Slaps Slow Motion.mp4"
-            type="video/mp4"
-          />
+        <video class="video-player" muted loop>
+          <source src="resources/Video/SlapsSlowMotion.mp4" type="video/mp4" />
         </video>
-        <!-- <div class="button-border">
-          <div class="play"></div>
-        </div> -->
+        <div class="play-button">
+          <div class="play-icon"></div>
+        </div>
+        <button
+          class="fullscreen--button"
+          onclick="fullScreenToggle('video-player'); return false"
+        >
+          <i class="fas fa-compress"></i>
+        </button>
       </div>
     </header>
 
