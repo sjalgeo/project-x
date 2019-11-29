@@ -13,14 +13,9 @@ window.addEventListener("scroll", () => {
 
 const pageVideo = document.querySelector(".video-player");
 
-function playPause() {
-  if (pageVideo.paused) {
-    pageVideo.play();
-  } else {
-    pageVideo.pause();
-  }
-}
-pageVideo.paused ? pageVideo.play() : pageVideo.pause();
+document.querySelector(".play-button").addEventListener("click", () => {
+  pageVideo.paused ? pageVideo.play() : pageVideo.pause();
+});
 
 function fullScreenToggle() {
   const videoSize = document.querySelector(".video-player");
