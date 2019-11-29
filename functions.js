@@ -13,5 +13,5 @@ window.addEventListener("scroll", () => {
 
 const pageVideo = document.querySelector(".header__video");
 document.querySelector(".play-button").addEventListener("click", () => {
-  pageVideo.pause ? pageVideo.play() : pageVideo.pause();
+  pageVideo.paused ? pageVideo.play() : pageVideo.pause();
 });
