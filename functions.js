@@ -11,7 +11,7 @@ window.addEventListener("scroll", () => {
     : nav.classList.remove("c-nav--alt");
 });
 
-const pageVideo = document.getElementById("video-player");
+const pageVideo = document.querySelector(".video-player");
 
 function playPause() {
   if (pageVideo.paused) {
@@ -20,9 +20,10 @@ function playPause() {
     pageVideo.pause();
   }
 }
+pageVideo.paused ? pageVideo.play() : pageVideo.pause();
 
 function fullScreenToggle() {
-  const videoSize = document.getElementById("video-player");
+  const videoSize = document.querySelector(".video-player");
   if (videoSize.mozRequestFullScreen) {
     videoSize.mozRequestFullScreen();
   } else if (videoSize.webkitRequestFullScreen) {
