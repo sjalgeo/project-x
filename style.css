@@ -89,14 +89,11 @@ select {
 .button-round:hover {
   background-color: rgba(255, 16, 45, 0.3);
 }
-.header-image-box {
+.video-container {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  height: 60rem;
 }
 .play-button {
   z-index: 1;
@@ -104,10 +101,10 @@ select {
   background-color: #ffffff;
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: relative;
   width: 15rem;
   height: 15rem;
-  left: 45rem;
+  right: 85rem;
   top: 5rem;
   border-radius: 50%;
   cursor: pointer;
@@ -124,10 +121,10 @@ select {
   border-bottom: 2rem solid transparent;
   cursor: pointer;
 }
-video {
-  margin: 0 auto;
+.video-player {
   width: 100rem;
-  object-fit: cover;
+  position: relative;
+  left: 5%;
 }
 .fullscreen--button {
   display: flex;
@@ -140,8 +137,8 @@ video {
   height: 5rem;
   color: #ffffff;
   font-size: 3rem;
-  right: 50rem;
-  top: 52.5rem;
+  right: 12rem;
+  top: 50rem;
   cursor: pointer;
 }
 .section-product-info {
@@ -439,6 +436,18 @@ li {
 option {
   color: #000000;
 }
+
+@media (max-width: 1024px){
+  .video-player{
+    width:90rem;
+}
+.play-button{
+  right: 80rem;
+  height: 10rem;
+}
+.fullscreen--button{
+  top: 45rem;
+}
 @media (max-width: 992px) {
   body {
     text-align: center;
@@ -518,11 +527,14 @@ option {
     width: 50%;
     margin: 0 auto;
   }
-  .button-border {
+  .play-button {
     height: 10rem;
     width: 10rem;
     z-index: 1;
-    right: 40%;
+    right: 80rem;
+  }
+  .fullscreen--button{
+    top: 42.5rem;
   }
   .header-right {
     width: 100%;
@@ -534,6 +546,10 @@ option {
     text-align: center;
     margin: 0 auto;
     padding: 0;
+  }
+  .video-player {
+    margin: 0 auto;
+    width: 90%;
   }
   .section-product-info {
     flex-direction: column;
