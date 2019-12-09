@@ -464,7 +464,7 @@ option {
     right: 0;
     bottom: 0;
     height: 100vh;
-    width: 50vh;
+    width: auto;
     flex-direction: column;
     background-color: #1d3b53;
     align-items: flex-start;
